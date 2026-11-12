@@ -6,7 +6,7 @@ Semua instruksi dibacakan dengan suara bahasa Indonesia, jadi anak tidak perlu b
 
 ## Menjalankan
 
-Butuh Node.js 18 atau lebih baru.
+Butuh Node.js 20.19 atau lebih baru (disarankan 22).
 
 ```bash
 npm install
