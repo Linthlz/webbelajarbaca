@@ -1,0 +1,8 @@
+<svg viewBox="0 0 1200 600" preserveAspectRatio="xMidYMax slice" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="600" fill="#D9F0FF"/>
+  <circle cx="1040" cy="110" r="60" fill="#FFE27A"/>
+  <g fill="#fff"><ellipse cx="220" cy="120" rx="80" ry="26"/><ellipse cx="270" cy="100" rx="50" ry="26"/><ellipse cx="760" cy="170" rx="90" ry="26"/><ellipse cx="710" cy="150" rx="50" ry="24"/></g>
+  <path d="M0 420c200-120 380-110 560-20s420 60 640-60v260H0z" fill="#A9E5B8"/>
+  <path d="M0 500c240-90 420-60 640 0s380 20 560-50v150H0z" fill="#7ED69A"/>
+  <path d="M0 560c300-60 700-40 1200-10v50H0z" fill="#5CC27F"/>
+</svg>

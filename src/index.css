@@ -1,0 +1,50 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    -webkit-tap-highlight-color: transparent;
+  }
+  body {
+    @apply bg-cream font-body text-ink antialiased;
+    min-height: 100dvh;
+    overscroll-behavior-y: none;
+  }
+  h1,
+  h2,
+  h3 {
+    @apply font-display font-extrabold leading-tight;
+  }
+  button {
+    touch-action: manipulation;
+    user-select: none;
+  }
+  img {
+    -webkit-user-drag: none;
+    user-select: none;
+  }
+  :focus-visible {
+    @apply outline-none ring-4 ring-sky/60;
+  }
+}
+
+@layer components {
+  /* Kartu putih tebal, dipakai di hampir semua aktivitas */
+  .card {
+    @apply rounded-[2rem] border-2 border-ink/5 bg-white shadow-card;
+  }
+  /* Ubin pilihan jawaban */
+  .tile {
+    @apply flex items-center justify-center rounded-3xl border-2 border-b-[6px] border-slate-200 bg-white font-display font-extrabold text-ink transition-transform active:translate-y-1 active:border-b-2 disabled:cursor-not-allowed;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+  }
+}
